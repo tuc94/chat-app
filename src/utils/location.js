@@ -1,5 +1,6 @@
-const generateLocation = (text) => {
+const generateLocation = (username, text) => {
   return {
+    username,
     text,
     createdAt: new Date(),
   };
